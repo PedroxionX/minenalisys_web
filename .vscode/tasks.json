@@ -8,6 +8,41 @@
             "type": "shell",
             "command": "cd ~/minecraft/apicrud/ && source venv/bin/activate && fastapi dev main.py",
             "problemMatcher": []
+        },
+        {
+            "label": "minor changes",
+            "type": "shell",
+            "command": "git add . && git commit -m 'minor changes' && clear && git push",
+            "problemMatcher": []
+        },
+        {
+            "type": "java (build)",
+            "paths": [
+                "${workspace}"
+            ],
+            "isFullBuild": true,
+            "group": "build",
+            "problemMatcher": [],
+            "label": "java (build): Build Workspace",
+            "detail": "$(tools) Build all the Java projects in workspace."
+        },
+        {
+            "type": "gradle",
+            "id": "/home/pedroxionx/minecraft/minenalisys_webtasksminenalisys_web",
+            "script": "tasks",
+            "description": "Displays the tasks runnable from root project 'minenalisys_web'.",
+            "group": "help",
+            "project": "minenalisys_web",
+            "buildFile": "/home/pedroxionx/minecraft/minenalisys_web/build.gradle",
+            "rootProject": "minenalisys_web",
+            "projectFolder": "/home/pedroxionx/minecraft/minenalisys_web",
+            "workspaceFolder": "/home/pedroxionx/minecraft/minenalisys_web",
+            "args": "",
+            "javaDebug": false,
+            "problemMatcher": [
+                "$gradle"
+            ],
+            "label": "gradle: tasks"
         }
     ]
 }
