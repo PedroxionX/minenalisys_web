@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "com/github/pedroxionx/minenalisys_web/mixin/ExampleMixin": {
+      "loadWorld": "Lnet/minecraft/server/MinecraftServer;method_3735()V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "com/github/pedroxionx/minenalisys_web/mixin/ExampleMixin": {
+        "loadWorld": "Lnet/minecraft/server/MinecraftServer;method_3735()V"
+      }
+    }
+  }
+}
