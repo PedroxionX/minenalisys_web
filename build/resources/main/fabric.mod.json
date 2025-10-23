@@ -5,7 +5,7 @@
 	"name": "byp_minenalisys_web",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
-		"Me!"
+		"pedroxionx"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -20,7 +20,10 @@
 		],
 		"client": [
 			"com.github.pedroxionx.minenalisys_web.Byp_minenalisys_webClient"
-		]
+		],
+		"modmenu": [
+      		"com.github.pedroxionx.minenalisys_web.ModMenuIntegration"
+    ]
 	},
 	"mixins": [
 		"byp_minenalisys_web.mixins.json",

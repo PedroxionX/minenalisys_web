@@ -1,13 +1,19 @@
 {
   "mappings": {
     "com/github/pedroxionx/minenalisys_web/mixin/client/ExampleClientMixin": {
-      "run": "Lnet/minecraft/class_310;method_1514()V"
+      "loadWorld": "Lnet/minecraft/server/MinecraftServer;method_3735()V"
+    },
+    "com/github/pedroxionx/minenalisys_web/mixin/client/MessageHandlerClientMixin": {
+      "addToChatLog": "Lnet/minecraft/class_7594;method_44737(Lnet/minecraft/class_7471;Lnet/minecraft/class_2556$class_7602;Lcom/mojang/authlib/GameProfile;Lnet/minecraft/class_7595;)V"
     }
   },
   "data": {
     "named:intermediary": {
       "com/github/pedroxionx/minenalisys_web/mixin/client/ExampleClientMixin": {
-        "run": "Lnet/minecraft/class_310;method_1514()V"
+        "loadWorld": "Lnet/minecraft/server/MinecraftServer;method_3735()V"
+      },
+      "com/github/pedroxionx/minenalisys_web/mixin/client/MessageHandlerClientMixin": {
+        "addToChatLog": "Lnet/minecraft/class_7594;method_44737(Lnet/minecraft/class_7471;Lnet/minecraft/class_2556$class_7602;Lcom/mojang/authlib/GameProfile;Lnet/minecraft/class_7595;)V"
       }
     }
   }

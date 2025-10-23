@@ -6,6 +6,10 @@ minenalisys_web is a lightweight Minecraft *(Fabric)* mod that provides basic in
 - Java - mod logic and data handling
 - mvn repositories
     - <a href='https://jetty.org/'>jetty://</a> - Web Client
+    - <a href=''>ClothAPI</a> - GUI config
+
+## Compatibility 
+- <a href=''>ModMenu</a>
 
 ## Development Notes
 This project is currently under development, primarly as a portfolio / CV project.

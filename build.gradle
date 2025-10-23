@@ -11,9 +11,15 @@ base {
 }
 
 repositories {
-	maven {         
-        url = uri("https://mvnrepository.com/artifact/org.eclipse.jetty/jetty-client")
-    }
+	mavenCentral()
+    maven {
+    	name = "Terraformers"
+    	url = "https://maven.terraformersmc.com/"
+  	}
+	maven { url "https://maven.shedaniel.me/" }
+    maven { url "https://maven.terraformersmc.com/releases/" }
+
+
 }
 
 loom {
@@ -39,6 +45,12 @@ dependencies {
 
 	// jetty
 	implementation("org.eclipse.jetty:jetty-client:12.1.2")
+	//ModMenu
+	modImplementation("com.terraformersmc:modmenu:${project.modmenu_version}")
+	//ModConfig
+	modApi("me.shedaniel.cloth:cloth-config-fabric:15.0.140") {
+        exclude(group: "net.fabricmc.fabric-api")
+    }
 	
 }
 
