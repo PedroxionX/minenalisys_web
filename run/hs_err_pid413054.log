@@ -1,0 +1,28 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  SIGSEGV (0xb) at pc=0x00007f33cd73cc7c, pid=413054, tid=413055
+#
+# JRE version: OpenJDK Runtime Environment (Red_Hat-21.0.8.0.9-1) (21.0.8+9) (build 21.0.8+9)
+# Java VM: OpenJDK 64-Bit Server VM (Red_Hat-21.0.8.0.9-1) (21.0.8+9, mixed mode, sharing, tiered, compressed oops, compressed class ptrs, g1 gc, linux-amd64)
+# Problematic frame:
+# C  [libgallium-25.1.9.so+0x73cc7c]
+#
+# Core dump will be written. Default location: Core dumps may be processed with "/usr/lib/systemd/systemd-coredump %P %u %g %s %t %c %h %d %F" (or dumping to /home/pedroxionx/minecraft/minenalisys_web/run/core.413054)
+#
+# If you would like to submit a bug report, please visit:
+#   https://bugzilla.redhat.com/enter_bug.cgi?product=Fedora&component=java-21-openjdk&version=41
+# The crash happened outside the Java Virtual Machine in native code.
+# See problematic frame for where to report the bug.
+#
+
+---------------  S U M M A R Y ------------
+
+Command Line: -agentlib:jdwp=transport=dt_socket,server=n,suspend=y,address=localhost:42173 -Dfabric.dli.config=/home/pedroxionx/minecraft/minenalisys_web/.gradle/loom-cache/launch.cfg -Dfabric.dli.env=client -Dfabric.dli.main=net.fabricmc.loader.impl.launch.knot.KnotClient -XX:+ShowCodeDetailsInExceptionMessages net.fabricmc.devlaunchinjector.Main
+
+Host: Intel(R) Core(TM) i5-8350U CPU @ 1.70GHz, 8 cores, 15G, Fedora release 42 (Adams)
+Time: Wed Oct 22 01:54:13 2025 PDT elapsed time: 234.351298 seconds (0d 0h 3m 54s)
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00007f3504033ed0):  JavaThread "Render thread"        [_thread_in_native, id=413055, stack(0x00007f350bd00000,0x00007f350be00000) (1024K)]
