@@ -3,7 +3,6 @@
 	"package": "com.github.pedroxionx.minenalisys_web.mixin.client",
 	"compatibilityLevel": "JAVA_21",
 	"client": [
-		"ExampleClientMixin",
 		"MessageHandlerClientMixin"
 	],
 	"injectors": {

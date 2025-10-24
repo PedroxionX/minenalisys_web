@@ -1,0 +1,64 @@
+# =============================
+# Minecraft Fabric Mod .gitignore
+# =============================
+
+# Java / Gradle
+.gradle/
+build/
+out/
+bin/
+classes/
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VSCode
+.vscode/
+.settings/
+*.code-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Minecraft / Fabric specific
+run/
+logs/
+config/
+saves/
+crash-reports/
+
+# Temporary / generated files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Distribution output
+*.jar
+!libs/        # Keep if you store dependencies manually
+!build/libs/  # Optional: include built mod jars if desired
+
+# Gradle caches
+.gradle/
+**/build/
+.gradle-cache/
+gradle-app.setting
+
+# User environment
+local.properties
+.env
+*.env
+
+# JetBrains run configurations (optional)
+runConfigurations/

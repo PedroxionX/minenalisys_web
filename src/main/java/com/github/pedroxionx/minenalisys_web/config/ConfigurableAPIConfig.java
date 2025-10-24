@@ -5,10 +5,10 @@ import me.shedaniel.autoconfig.annotation.Config;
 
 @Config(name = "minenalisys_web")
 public class ConfigurableAPIConfig implements ConfigData {
-    public static String prefix = "prefix";
-    public static String command = "chatgpt";
-    public static String apiUrl = "https://api.tu-servidor.com/";
-    public static String apiKey = "API_KEY_AQUI";
+    public static String prefix = "@";
+    public static String command = "deepseek";
+    public static String apiUrl = "https://api.deepseek.com/chat/completions";
+    public static String apiKey = "sk-f6665fcb3b1542059f8b137f808f1ceb";
     // public boolean debugMode = false;
 
     public static String getCommand() {

@@ -51,6 +51,8 @@ dependencies {
 	modApi("me.shedaniel.cloth:cloth-config-fabric:15.0.140") {
         exclude(group: "net.fabricmc.fabric-api")
     }
+	// https://mvnrepository.com/artifact/com.squareup.okhttp3/okhttp
+	implementation("com.squareup.okhttp3:okhttp:5.2.1")
 	
 }
 
